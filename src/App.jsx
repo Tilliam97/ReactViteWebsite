@@ -69,11 +69,13 @@ function App() {
           </ul>
         </div> */}
         <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with me</h2>
-          <p>Join the community</p>
+          <div id="social-txt">
+            <svg className="icon" role="presentation" aria-hidden="true">
+              <use href="/icons.svg#social-icon"></use>
+            </svg>
+            <h2>Connect with me</h2>
+            <p>Join the community</p>
+          </div>
           <ul>
             <li>
               <a href="https://open.substack.com/pub/camilleyvonne22" target="_blank">
