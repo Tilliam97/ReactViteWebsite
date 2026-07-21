@@ -89,9 +89,11 @@
   }
 
   .icon {
+    filter:brightness(0) saturate(100);
     margin-bottom: 16px;
     width: 22px;
     height: 22px;
+    filter: invert(81%) sepia(38%) saturate(121%) hue-rotate(277deg) brightness(107%) contrast(103%);
   }
 
   @media (max-width: 1024px) {
